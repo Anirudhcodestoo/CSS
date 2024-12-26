@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <!--  The viewport is the "window" through which you're viewing the web content. -->
+    <!-- It does not include areas outside the browser's visible area, like the browser's address bar, bookmarks, or developer tools. -->
+    <!--The element with height: 100vh stretches to cover the entire height of the browser window.
+Other Elements in the Same Flow:
+
+If other elements are above or below it in the HTML flow:
+They will be pushed outside the viewport because the element already occupies the entire height.    -->
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background: #1a1a1a;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+      }
+      .card {
+        background-color: #d5d4d4;
+        border-radius: 10px;
+        padding: 20px;
+        width: 280px;
+      }
+      h2 {
+        color: #1a50a0;
+        text-align: center;
+        margin-bottom: 50px;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+      input {
+        margin-bottom: 15px;
+        padding: 15px;
+        border-radius: 5px;
+        background-color: #d8d8d8;
+        border: 1px solid black;
+      }
+      button {
+        background-color: #1b81da;
+        color: #fff;
+        padding: 10px;
+        border-radius: 8px;
+      }
+      button:hover {
+        background-color: #0741ac;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h2>Login</h2>
+      <form action="">
+        <label for="email">
+          Email:
+          <input type="email" name="" id="" placeholder="email" />
+        </label>
+        <label for="password">
+          Password:
+          <input type="password" name="" id="" placeholder="password" />
+          <button type="submit">Login</button>
+        </label>
+      </form>
+    </div>
+  </body>
+</html>
