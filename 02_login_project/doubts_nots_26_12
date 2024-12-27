@@ -1,0 +1,4 @@
+You are not overwriting the body styles globally. Instead:
+
+The .card has its own local styles, like a layer on top of the body.
+This is a normal CSS cascade where child elements can have their styles override the parent’s for their own content.

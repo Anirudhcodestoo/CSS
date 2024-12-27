@@ -27,20 +27,22 @@ They will be pushed outside the viewport because the element already occupies th
         background-color: #d5d4d4;
         border-radius: 10px;
         padding: 20px;
-        width: 280px;
+        width: 300px;
       }
       h2 {
         color: #1a50a0;
         text-align: center;
-        margin-bottom: 50px;
+        margin-bottom: 45 px;
       }
       form {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        /* This specifies that the flex items (the child elements of the <form>) should be arranged in a column, one below the other, instead of the default row arrangement (which is side by side). */
       }
       input {
         margin-bottom: 15px;
-        padding: 15px;
+        padding: 10px;
         border-radius: 5px;
         background-color: #d8d8d8;
         border: 1px solid black;
@@ -50,6 +52,8 @@ They will be pushed outside the viewport because the element already occupies th
         color: #fff;
         padding: 10px;
         border-radius: 8px;
+        text-align: center;
+        align-items: center;
       }
       button:hover {
         background-color: #0741ac;
@@ -67,8 +71,8 @@ They will be pushed outside the viewport because the element already occupies th
         <label for="password">
           Password:
           <input type="password" name="" id="" placeholder="password" />
-          <button type="submit">Login</button>
         </label>
+        <button type="submit">Login</button>
       </form>
     </div>
   </body>
