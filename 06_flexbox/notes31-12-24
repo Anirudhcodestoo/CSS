@@ -1,0 +1,7 @@
+align - vertical align
+ justify - left right
+ flex wrap - automatically go to new row after 5  dont try to smush it in same row;
+ height auto removes extra white saoces
+ space around with flex
+ flex grow controls spae of each element 
+ align self flex-start control each elment stretch or auto strtch it
