@@ -37,6 +37,7 @@
         color: white;
         background-color: #d45b04;
         padding: 5px 10px;
+        position: relative;
       }
       .nav1 login-btn {
         background-color: rgb(132, 132, 177);
@@ -55,10 +56,10 @@
         height: 2px;
         background-color: #0a65c7;
         transform: scaleY(0);
-        transition: transform() 0.3;
+        transition: transform 0.3;
       }
-      .nav1:hover::after {
-        transform: scaleX(1);
+      .nav1 a:hover::after {
+        transform: scaleY(1);
       }
       .nav2 {
         border: 2px solid red;
